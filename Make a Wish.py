@@ -34,6 +34,6 @@ while ans:
     elif answers == 7:
         print "Hmm, the chances of your wish coming true are really 50/50. Press enter again to get another result!"
         
-        print Thank you for making your wish! Whether your result be positive or not, I wish you all the best! And that wish shall come true! :D
+        print "Thank you for making your wish! Whether your result be positive or not, I wish you all the best! And that wish shall come true! :D"
     
 
