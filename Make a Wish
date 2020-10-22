@@ -8,31 +8,32 @@ ans = True
 while ans:
     question = raw_input("Ask if your wish will be granted: (press enter to quit) ")
     
-    answers = random.randint(1,5)
+    answers = random.randint(1,7)
     
     if question == "":
         sys.exit()
     
     elif answers == 1:
-        print "It is certain"
+        print "Congratulations! The odds are in your favour and your wish will surely be granted!"
     
     elif answers == 2:
-        print "Outlook good"
+        print "There is a high chance your wish will come true,but you need to put in the effort."
     
     elif answers == 3:
-        print "You may rely on it"
+        print "Your wish will not come true easily, so do work hard to achieve your dreams!"
     
     elif answers == 4:
-        print "Ask again later"
+        print "If you really want this wish to come true,you must work really hard or it won't come true. But I believe that hard work pays off! "
     
     elif answers == 5:
-        print "Concentrate and ask again"
+        print "I'm sorry,but the chances of this wish coming tre are really slim."
     
     elif answers == 6:
-        print "Reply hazy, try again"
+        print "I'm really sorry but this wish doesn't seem to have a chance of coming true. It's okay, I believe that you can still be happy.Be positive!"
     
     elif answers == 7:
-        print "My reply is no"
+        print "Hmm, the chances of your wish coming true are really 50/50. Press enter again to get another result!"
+        
+        print Thank you for making your wish! Whether your result be positive or not, I wish you all the best! And that wish shall come true! :D
     
-    elif answers == 8:
-        print "
+
